@@ -23,7 +23,7 @@
 </style>
 
 <body>
-    <nav class="navbar bg-primary">
+    <nav class="navbar bg-primary sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="img/logo.png">
                 <img src="img/logo2.png" alt="munka közben" width="90vw" class="d-inline-block align-text-top">
@@ -128,11 +128,13 @@
             <input type="email" id="email" name="email" required class="bgorange1" />
             <label>Nem:</label>
             <div class="gender-group">
-                <input type="radio" name="gender" value="male" id="male" required" />
-                <label for="male">férfi</label>
-                <input type="radio" name="gender" value="female" id="female" />
-                <label for="female">nő</label>
-                <input type="radio" name="gender" value="others" id="others" />
+                <input type="radio" name="gender" value="male" id="male" required" class="bgorange1" />
+                <label for="male">Férfi</label>
+                <input type="radio" name="gender" value="female" id="female" class="bgorange1" />
+                <label for="female">Nő</label>
+                <input type="radio" name="gender" value="others" id="fish" class="bgorange1" />
+                <label for="fish">Hal</label>
+                <input type="radio" name="gender" value="others" id="others" class="bgorange1" />
                 <label for="others">Egyéb</label>
             </div>
             <label for="dob">Mikorra kéri a szerelést:</label>
@@ -161,6 +163,17 @@
             </div>
         </div>
     </div>
+    <p class="text-center bg-primary-subtle my-0 py-0" style="height: 100vh;">lábléc</p>
+    <footer class="footer bg-primary-subtle ">
+        <div style="text-align: left;">
+            <a href="#">Tetejére</a>
+            <span>Minden jog fenntartva.</span>
+        </div>
+        <div style="text-align: right;">
+            <span>készítette:</span>
+            <span>Lakatos Armandó</span>
+        </div>
+    </footer>
     <script>
         AOS.init();
     </script>
